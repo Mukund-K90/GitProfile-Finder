@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="input_wrapper">
+            <input type="text" placeholder="Enter github user name" class="input_user">
+            <div class="btn_submit">Search User</div>
+        </div>
+        <div class="userData">
+            <div class="row">
+                <div class="user_info">
+                    
+                </div>
+                <div class="repo">
+                    <div class="headline">
+                        <h1>Repo Details</h1>
+                        <i onclick="openProfile()" style="color: aliceblue;" class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="repo_details">
+                    </div>
+                    <p class="moreRepo disable"><a href="#">more</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <center>
+            <p>created by Mukund K.</p>
+        </center>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
