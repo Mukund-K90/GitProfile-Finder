@@ -125,3 +125,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const defaultUser = "Mukund-K91";
     fetchUser(defaultUser);
 });
+
+document.addEventListener('contextmenu', (event) => {
+    event.preventDefault();
+});
+window.addEventListener('selectstart', (event) => {
+    event.preventDefault();
+});
